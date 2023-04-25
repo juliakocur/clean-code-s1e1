@@ -42,6 +42,7 @@
 
 .todo__wrapper {
   display: flex;
+  justify-content:space-between;
 }
 
 .todo-list__task,
@@ -122,7 +123,7 @@ label[for="todo__input"] {
 }
 
 input#todo__input {
-  width: 318px;
+  width: 440px;
 }
 
 /* Task list */
@@ -148,7 +149,7 @@ li > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
+  width: 347px;
 }
 
 li > input[type="text"] {
@@ -178,7 +179,7 @@ ul li input[type=text] {
 
 ul li.todo-list__edit input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 347px;
 }
 
 ul li.todo-list__edit label {
